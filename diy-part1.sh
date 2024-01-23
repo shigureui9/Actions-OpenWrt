@@ -17,3 +17,4 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i '$a src-git smpackage https://github.com/shigureui9/kenzok8-package' feeds.conf.default
+sed -i '$a src-git pgyvpn https://github.com/OrayOS/OpenOray' feeds.conf.default
